@@ -63,7 +63,7 @@
       <div class="col-md-3 text-center">
         <h6 style=" color: #8c97a0;">Total {{type}}s:</h6>
       </div>
-      <div class="col-md-5 text-info total-amount text-center">${{ totalAmount }}
+      <div class="col-md-5 text-info total-amount text-center">₹{{ totalAmount }}
       </div>
     </div>
 
@@ -92,7 +92,7 @@
         {{!-- Amount --}}
         <div class="col-4 d-flex align-items-center justify-content-end">
           <div class="d-flex flex-column align-items-end">
-            <h5 class="record-amount">${{#if (eq this.type 'expense')}}-{{/if}}{{ this.amount }}</h5>
+            <h5 class="record-amount">₹{{#if (eq this.type 'expense')}}-{{/if}}{{ this.amount }}</h5>
             <small class="text-muted">{{this.merchant}}</small>
           </div>
 

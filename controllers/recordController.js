@@ -45,7 +45,7 @@ const recordController = {
       }
 
       const amountByMonth = await getAmountByMonth(filter)
-      let currentDate = moment.utc(new Date()).format('YYYY-M')
+      let currentDate = moment.utc(new Date()).format('YYYY-MM')
       let filterDate
 
       if (selectedDate !== 'all') {

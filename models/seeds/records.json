@@ -9,7 +9,7 @@
     },
     {
       "type": "expense",
-      "name": "早餐",
+      "name": "Breakfast",
       "category": "Food",
       "amount": 60,
       "date": "2020-01-01",
@@ -17,40 +17,40 @@
     },
     {
       "type": "expense",
-      "name": "公車",
+      "name": "CAB/BUS",
       "category": "Transportation",
       "amount": 30,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "電影",
+      "name": "MOVIE",
       "category": "Entertainment",
       "amount": 230,
       "date": "2020-01-01",
-      "merchant": "信義威秀"
+      "merchant": "Movie"
     },
     {
       "type": "expense",
-      "name": "電費",
+      "name": "Utilities",
       "category": "Home",
       "amount": 1000,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "秘密",
+      "name": "Other Private Expense",
       "category": "Other",
       "amount": 10000,
       "date": "2020-03-01"
     },
     {
       "type": "expense",
-      "name": "晚餐",
+      "name": "Dinner",
       "category": "Food",
       "amount": 1800,
       "date": "2021-03-01",
-      "merchant": "響食天堂"
+      "merchant": "Food paradise"
     },
     {
       "type": "revenue",
@@ -61,7 +61,7 @@
     },
     {
       "type": "expense",
-      "name": "早餐",
+      "name": "Breakfast",
       "category": "Food",
       "amount": 60,
       "date": "2020-03-01",
@@ -69,40 +69,40 @@
     },
     {
       "type": "expense",
-      "name": "公車",
+      "name": "Bus",
       "category": "Transportation",
       "amount": 30,
       "date": "2020-03-01"
     },
     {
       "type": "expense",
-      "name": "電影",
+      "name": "Movie",
       "category": "Entertainment",
       "amount": 230,
       "date": "2020-01-01",
-      "merchant": "信義威秀"
+      "merchant": "Maharaja Hall"
     },
     {
       "type": "expense",
-      "name": "電費",
+      "name": "Electricity bill",
       "category": "Home",
       "amount": 1000,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "秘密",
+      "name": "Secret",
       "category": "Other",
       "amount": 10000,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "晚餐",
+      "name": "Dinner",
       "category": "Food",
       "amount": 1800,
       "date": "2021-03-01",
-      "merchant": "響食天堂"
+      "merchant": "Food Plaza"
     },
     {
       "type": "revenue",
@@ -113,7 +113,7 @@
     },
     {
       "type": "expense",
-      "name": "早餐",
+      "name": "Breakfast",
       "category": "Food",
       "amount": 60,
       "date": "2020-01-01",
@@ -121,40 +121,40 @@
     },
     {
       "type": "expense",
-      "name": "公車",
+      "name": "Bus",
       "category": "Transportation",
       "amount": 30,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "電影",
+      "name": "Movie",
       "category": "Entertainment",
       "amount": 230,
       "date": "2020-05-21",
-      "merchant": "信義威秀"
+      "merchant": "Kalpana"
     },
     {
       "type": "expense",
-      "name": "電費",
+      "name": "Saloon",
       "category": "Home",
       "amount": 1000,
       "date": "2020-05-21"
     },
     {
       "type": "expense",
-      "name": "秘密",
+      "name": "Beer",
       "category": "Other",
       "amount": 10000,
       "date": "2020-05-21"
     },
     {
       "type": "expense",
-      "name": "晚餐",
+      "name": "Chowmin",
       "category": "Food",
       "amount": 1800,
       "date": "2021-03-01",
-      "merchant": "響食天堂"
+      "merchant": "Chowmin Center"
     },
     {
       "type": "revenue",
@@ -165,7 +165,7 @@
     },
     {
       "type": "expense",
-      "name": "早餐",
+      "name": "Momos",
       "category": "Food",
       "amount": 60,
       "date": "2020-01-01",
@@ -173,40 +173,40 @@
     },
     {
       "type": "expense",
-      "name": "公車",
+      "name": "Train",
       "category": "Transportation",
       "amount": 30,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "電影",
+      "name": "Pub",
       "category": "Entertainment",
       "amount": 230,
       "date": "2020-01-01",
-      "merchant": "信義威秀"
+      "merchant": "Night Club"
     },
     {
       "type": "expense",
-      "name": "電費",
+      "name": "Water",
       "category": "Home",
       "amount": 1000,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "秘密",
+      "name": "Note Book",
       "category": "Other",
       "amount": 10000,
       "date": "2020-03-01"
     },
     {
       "type": "expense",
-      "name": "晚餐",
+      "name": "Vegetables",
       "category": "Food",
       "amount": 1800,
       "date": "2021-03-01",
-      "merchant": "響食天堂"
+      "merchant": "Veggie Shop"
     },
     {
       "type": "revenue",
@@ -217,7 +217,7 @@
     },
     {
       "type": "expense",
-      "name": "早餐",
+      "name": "Sweet",
       "category": "Food",
       "amount": 60,
       "date": "2020-03-01",
@@ -225,40 +225,40 @@
     },
     {
       "type": "expense",
-      "name": "公車",
+      "name": "Plane",
       "category": "Transportation",
       "amount": 30,
       "date": "2020-03-01"
     },
     {
       "type": "expense",
-      "name": "電影",
+      "name": "Movie",
       "category": "Entertainment",
       "amount": 230,
       "date": "2020-01-01",
-      "merchant": "信義威秀"
+      "merchant": "Movie Hall"
     },
     {
       "type": "expense",
-      "name": "電費",
+      "name": "Barber Bill",
       "category": "Home",
       "amount": 1000,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "秘密",
+      "name": "Other",
       "category": "Other",
       "amount": 10000,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "晚餐",
+      "name": "Juice",
       "category": "Food",
       "amount": 1800,
       "date": "2021-03-01",
-      "merchant": "響食天堂"
+      "merchant": "Juice Shop"
     },
     {
       "type": "revenue",
@@ -269,7 +269,7 @@
     },
     {
       "type": "expense",
-      "name": "早餐",
+      "name": "Egg",
       "category": "Food",
       "amount": 60,
       "date": "2020-01-01",
@@ -277,40 +277,40 @@
     },
     {
       "type": "expense",
-      "name": "公車",
+      "name": "Metro Rail",
       "category": "Transportation",
       "amount": 30,
       "date": "2020-01-01"
     },
     {
       "type": "expense",
-      "name": "電影",
+      "name": "Water Park",
       "category": "Entertainment",
       "amount": 230,
       "date": "2020-05-21",
-      "merchant": "信義威秀"
+      "merchant": "Water Park"
     },
     {
       "type": "expense",
-      "name": "電費",
+      "name": "Home",
       "category": "Home",
       "amount": 1000,
       "date": "2020-05-21"
     },
     {
       "type": "expense",
-      "name": "秘密",
+      "name": "Other",
       "category": "Other",
       "amount": 10000,
       "date": "2020-05-21"
     },
     {
       "type": "expense",
-      "name": "晚餐",
+      "name": "Food",
       "category": "Food",
       "amount": 1800,
       "date": "2021-03-01",
-      "merchant": "響食天堂"
+      "merchant": "Foods"
     }
   ]
 }

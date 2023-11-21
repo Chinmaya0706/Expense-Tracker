@@ -1,21 +1,21 @@
 // Require packages
 const express = require('express')
 const session = require('express-session')
-const redis = require('redis')
-const client =
-  process.env.NODE_ENV === 'production'
-    ? redis.createClient(
-        `redis://${process.env.REDIS_ENDPOINT_URI.replace(
-          /^(redis\:\/\/)/,
-          ''
-        )}`,
-        { password: process.env.REDIS_PASSWORD }
-      )
-    : redis.createClient()
-const redisStore = require('connect-redis')(session)
+//const redis = require('redis')
+const client = 'production'
+  //process.env.NODE_ENV === 'production'
+    // ? redis.createClient(
+    //     `redis://${process.env.REDIS_ENDPOINT_URI.replace(
+    //       /^(redis\:\/\/)/,
+    //       ''
+    //     )}`,
+    //     { password: process.env.REDIS_PASSWORD }
+    //   )
+    // : redis.createClient()
+//const redisStore = require('connect-redis')(session)
 const exphbs = require('express-handlebars')
 
-const flash = require('connect-flash')
+const flash = require('connect-flash') //express flash module for showing error
 const methodOverride = require('method-override')
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
@@ -41,17 +41,17 @@ app.engine(
 app.set('view engine', 'hbs')
 
 // Handle session
-client.on('connect', function (err) {
-  if (err) {
-    console.log('Could not establish a connection with Redis. ' + err)
-  } else {
-    console.log('Connected to Redis successfully!')
-  }
-})
+// client.on('connect', function (err) {
+//   if (err) {
+//     console.log('Could not establish a connection with Redis. ' + err)
+//   } else {
+//     console.log('Connected to Redis successfully!')
+//   }
+// })
 
 app.use(
   session({
-    store: new redisStore({ client }),
+    //store: new redisStore({ client }),
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
@@ -94,5 +94,5 @@ app.use(routes)
 
 // Start and listen on the Express server
 app.listen(PORT, () => {
-  console.log(`App is running on http://localhost:${PORT}`)
+  console.log(`App is running on: http://localhost:${PORT}`)
 })
